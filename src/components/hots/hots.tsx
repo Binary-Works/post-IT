@@ -30,8 +30,8 @@ function Hots(){
     }
   ]
   return (
-    <div className='shadow-md p-2 px-4 h-fit overflow-hidden bg-white'>
-      <h1 className='text-2xl font-semibold flex items-center gap-2'> <span className="relative flex h-2 w-2">
+    <div className='shadow-md p-2 px-4 h-fit overflow-hidden bg-white_gray-100 dark:bg-black_gray-500'>
+      <h1 className='text-2xl text-black_gray-900 dark:text-white_gray-500 font-semibold flex items-center gap-2'> <span className="relative flex h-2 w-2">
   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary-500 opacity-75"></span>
   <span className="relative inline-flex rounded-full h-2 w-2 bg-primary-400"></span>
 </span> Hot now <span className='text-primary-500'><BsFire/></span></h1>
