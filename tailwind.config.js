@@ -10,6 +10,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        slide: {
+          '0%': { transform: 'translate(40%)' },
+          '100%': { transform: 'translate(-100%)' },
+        }
+      },
       colors: {
         white_gray: {
           100: "#fcfcfd",
