@@ -4,7 +4,7 @@ import { Search } from "../search/search";
 
 export function Navbar() {
   return (
-    <nav className="shadow-md p-2">
+    <nav className="shadow-md p-2 z-50">
       <div className="grid grid-cols-3 items-center">
         <Logo />
         <Search />

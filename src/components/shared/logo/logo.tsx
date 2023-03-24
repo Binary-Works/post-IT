@@ -1,3 +1,8 @@
 export function Logo() {
-  return <h1 className="logo text-2xl ">post-it</h1>;
+  return <h1 className="text-2xl font-extrabold text-white_gray-900 flex">Post-it 
+  <span className="relative flex h-2 w-2">
+  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary-500 opacity-75"></span>
+  <span className="relative inline-flex rounded-full h-2 w-2 bg-primary-400"></span>
+</span>
+  </h1>;
 }
