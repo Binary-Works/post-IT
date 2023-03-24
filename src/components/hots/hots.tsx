@@ -31,7 +31,7 @@ function Hots(){
   ]
   return (
     <div className='mx-4 lg:mx-[25%] shadow-md p-2 px-4 h-fit mt-5 overflow-hidden'>
-      <h1 className='text-2xl font-semibold flex items-center gap-2'> <span class="relative flex h-2 w-2">
+      <h1 className='text-2xl font-semibold flex items-center gap-2'> <span className="relative flex h-2 w-2">
   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-orange-400 opacity-75"></span>
   <span className="relative inline-flex rounded-full h-2 w-2 bg-orange-500"></span>
 </span> Hot now <span className='text-orange-500'><BsFire/></span></h1>
