@@ -1,5 +1,5 @@
-import Homepage from "@/components/homepage/homepage";
-import Hots from "@/components/hots/hots";
+import Homepage from "@/components/_page_/homepage/homepage";
+import Hots from "@/components/_page_/homepage/hots/hots";
 import { Navbar } from "@/components/shared/navbar/navbar";
 import { Test } from "@/components/test";
 import GlobalLayout from "@/layout/globalLayout";

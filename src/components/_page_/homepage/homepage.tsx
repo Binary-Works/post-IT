@@ -1,6 +1,6 @@
 import React from "react";
-import Feeds from "../feeds/feeds";
-import Hots from "../hots/hots";
+import Feeds from "./feeds/feeds";
+import Hots from "./hots/hots";
 
 const Homepage = () => {
   return (
