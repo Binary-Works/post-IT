@@ -1,9 +1,10 @@
 import { BiUser } from "react-icons/bi";
+import { IconContainer } from "../icon_container/iconContainer";
 
 export function ProfileIcon() {
   return (
-    <div className="ml-auto w-[40px] h-[40px] center_xy bg-gray-300 rounded-full">
+    <IconContainer>
       <BiUser size={20} />
-    </div>
+    </IconContainer>
   );
 }
