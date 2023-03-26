@@ -84,7 +84,7 @@ const Feeds = () => {
           <Posts key={index} item={item} />
         ))}
       </div>
-      <div className="w-[33%] relative">
+      <div className="w-[33%]">
         <Category />
       </div>
     </div>
