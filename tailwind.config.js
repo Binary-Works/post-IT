@@ -8,17 +8,18 @@ module.exports = {
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: "class",
   theme: {
     extend: {
       keyframes: {
         slide: {
-          '0%': { transform: 'translate(40%)' },
-          '100%': { transform: 'translate(-100%)' },
+          "0%": { transform: "translate(40%)" },
+          "100%": { transform: "translate(-100%)" },
         },
         phslide: {
-          '0%': { transform: 'translate(20%)' },
-          '100%': { transform: 'translate(-100%)' },
-        }
+          "0%": { transform: "translate(20%)" },
+          "100%": { transform: "translate(-100%)" },
+        },
       },
       colors: {
         white_gray: {
