@@ -30,7 +30,7 @@ export function Navbar() {
           {/* this will be hidden in mobile version */}
           <div className="center_y gap-3">
             {/* --- create blog button --- */}
-            <Link href={"create-blog"}>
+            <Link href={"/create-blog"}>
               <IconContainer size="35px">
                 <AiOutlinePlus size={20} />
               </IconContainer>
