@@ -1,3 +1,52 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap");
+
+*,
+html,
+body {
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Quicksand", sans-serif;
+}
+
+.logo {
+  font-family: "Teko", sans-serif;
+  font-weight: 600;
+}
+
+/* customizing scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #717171;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} */
+
+@layer components {
+  .center_y {
+    @apply flex items-center;
+  }
+  .center_xy {
+    @apply flex items-center justify-center;
+  }
+  .button {
+    @apply py-2 px-5 transition-all duration-300 font-semibold hover:scale-110;
+  }
+}
