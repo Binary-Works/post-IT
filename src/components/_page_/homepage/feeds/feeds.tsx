@@ -97,12 +97,12 @@ const Feeds = () => {
   ];
   return (
     <div className="flex justify-between dark:text-white_gray-100 gap-5">
-      <div className="w-[63%] flex flex-col gap-6">
+      <div className="w-full md:w-[63%] flex flex-col gap-6">
         {fakeData.map((item, index) => (
           <Posts key={index} item={item} />
         ))}
       </div>
-      <div className="w-[33%]">
+      <div className="md:w-[33%] hidden md:block">
         <Category />
       </div>
     </div>
