@@ -8,9 +8,9 @@ type globalLayoutProps = {
 
 const GlobalLayout = ({ children }: globalLayoutProps) => {
   return (
-    <main className=" min-h-screen bg-white_gray-500 dark:bg-black-400 relative">
+    <main className="h-screen grid grid-rows-[auto_1fr] w-screen bg-white_gray-500 dark:bg-black-400 relative">
       <Navbar />
-      <div className="mt-6 px-4 lg:px-[25%]">{children}</div>
+      <div className="mt-6 px-5 lg:px-[25%] overflow-y-auto">{children}</div>
     </main>
   );
 };
